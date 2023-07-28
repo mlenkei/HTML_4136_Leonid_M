@@ -15,3 +15,13 @@ var name_1 = prompt("Введите ваше имя");
         default: alert('Ну и ты малыш ' + name_1 + '!, заходи');
 
     }
+
+    function changeColor() {
+        document.querySelectorAll(".card-title").forEach(v => v.style.backgroundColor = "red");
+        document.querySelectorAll(".card-title").forEach(v => v.style.color = "green");
+        }
+    function changeColor1() {
+        document.querySelectorAll(".card-title").forEach(v => v.style.backgroundColor = "green");
+        document.querySelectorAll(".card-title").forEach(v => v.style.color = "red");
+                }
+        
