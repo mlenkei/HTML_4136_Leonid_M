@@ -1,0 +1,16 @@
+**Задача 2 **
+
+-- create
+CREATE TABLE EMPLOYEE (
+id INTEGER PRIMARY KEY,
+name TEXT NOT NULL,
+age TEXT NOT NULL,
+address TEXT NOT NULL
+);
+
+-- insert
+INSERT INTO EMPLOYEE VALUES (0001, 'Иван', '10', 'Ньювасюки');
+INSERT INTO EMPLOYEE VALUES (0002, 'Вася', '28', 'Иваново');
+INSERT INTO EMPLOYEE VALUES (0003, 'Анна', '37', 'ГородН');
+INSERT INTO EMPLOYEE VALUES (0004, 'Вольдемар', '16', 'Москва');
+INSERT INTO EMPLOYEE VALUES (0005, 'Кирилл', '38', 'Москва');
